@@ -2,13 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CreateAccountComponent } from './create-account/create-account.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CreateAccountComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]
